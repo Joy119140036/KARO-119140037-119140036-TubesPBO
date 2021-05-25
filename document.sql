@@ -32,9 +32,9 @@ CREATE TABLE `document` (
   `nama` varchar(100) DEFAULT NULL,
   `nim` varchar(100) NOT NULL,
   `prodi` varchar(100) NOT NULL,
-  `agama` varchar(100)NOT NULL
-  `umur` varchar(100)NOT NULL
-  `nohp` varchar(100)NOT NULL
+  `agama` varchar(100)NOT NULL,
+  `umur` varchar(100)NOT NULL,
+  `nohp` varchar(100)NOT NULL,
   `file` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
